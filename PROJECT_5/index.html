@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full">
+
+        <div class="header">
+            <img src="images/logo-windows-svgrepo-com.svg" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img class="search" src="images/magnifying-glass-solid.svg" alt="search-not-working">
+            <img src="images/bars-solid.svg" alt="hamburger" onclick="Open()" class="ham">
+            <div class="second-header" id="sec">
+                <div class="x">
+                    <button onclick="Close()">x</button>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left">
+                <h1>Simple Website</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, quasi modi natus cum ut recusandae magni corporis error id debitis, officia consectetur aspernatur vitae eius illo quos nihil laboriosam. Nisi.</p>
+                <br><br><br><br>
+                <button class="button"> <p class="inside">Submit</p> </button>
+            </div>
+
+            <div class="right">
+                <article>
+                    <div class="small-box">
+                            <h1>News</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos molestias excepturi consequuntur, officiis molestiae amet tempora iusto soluta, officia, quisquam fugit quis illo ratione deleniti ex corrupti quae accusantium!</p>
+                    </div>
+                    <div class="small-box">
+                        <h1>News</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos molestias excepturi consequuntur, officiis molestiae amet tempora iusto soluta, officia, quisquam fugit quis illo ratione deleniti ex corrupti quae accusantium!</p>
+                    </div>
+                    <div class="small-box">
+                        <h1>News</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos molestias excepturi consequuntur, officiis molestiae amet tempora iusto soluta, officia, quisquam fugit quis illo ratione deleniti ex corrupti quae accusantium!</p>
+                    </div>
+                    <div class="small-box">
+                        <h1>News</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos molestias excepturi consequuntur, officiis molestiae amet tempora iusto soluta, officia, quisquam fugit quis illo ratione deleniti ex corrupti quae accusantium!</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
